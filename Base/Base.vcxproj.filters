@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{92ce6e65-5e2b-4134-ba4f-3e94aa74e3ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlertMode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Bind.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpMode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardKey.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuData.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPositioner.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseKey.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionItem.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamMode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsedBind.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeKey.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTool.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TooSmallMode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TopItem.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="NiceBackend.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlertMode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBackend.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Bind.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpMode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPosition.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardKey.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="margins.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuData.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPositioner.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseKey.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionItem.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamMode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsedBind.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeKey.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TooSmallMode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TopItem.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="NiceBackend.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
